@@ -1,0 +1,81 @@
+/* 共通設定 */
+body {
+	margin: 0;
+	background-color: #222222;
+	fontsize:0.9em;
+}
+a { text-decoration: none;}
+a:hover {color: red;}
+h1,h2,nav,nav a {color: white;}
+
+/* コンテナ */
+div#container {
+	width: 800px;
+	margin: auto;
+	padding: 0;
+	background-color: #ffffcc;
+}
+
+/* ヘッダ */
+header h1 {
+	font-size: 1.8em;
+	font-family: serif;
+	margin: 0px;
+	padding: 24px 28px;
+	height: 132px;
+	background-color: #071b7e;
+	background-image: url(../img/bg_luna.jpg);
+	background-repeat: no-repeat;
+}
+
+/* パンくずリスト */
+nav {
+	font-size: 0.8em;
+	font-family: sans-serif;
+	padding: 6px 12px;
+	background-color: #444444;
+
+}
+
+/* コンテツ */
+section {
+	padding: 20px;
+}
+section h2 {
+	font-size: 1.1em;
+	font-family: sans-serif;
+	padding: 6px 14px;
+	margin: 20px 0px;
+	background-color: #223399;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px 1px gray;
+}
+section h2 {
+	clear: both;
+}
+section p {
+	margin: 20px;
+	line-height: 1.5;
+}
+section img {
+	width: 300px;
+	margin: 5px 0px 15px 15px;
+	float: right;
+}
+ol,ul {
+	margin-left: 24px;
+	padding-left: 20px;
+	line-height: 2;
+}
+ol {
+	list-style-type: katakana-iroha;
+}
+li {
+	margin: 5px 0px;
+}
+/* フッター */
+footer {
+	padding: 20px;
+	font-size: 0.8em;
+	text-align: center;
+}
